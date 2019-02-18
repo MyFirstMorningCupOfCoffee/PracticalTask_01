@@ -21,20 +21,20 @@ class CandyShop
     {
         println("Greetings! This application will help you to calculate price of chocolate and chewing candies you bought.");
         
-        double quantity_chock, quantity_chew, cost_chock, cost_chew;
+        double quantity_chocolate, quantity_chewing, cost_chock, cost_chew;
         
         print("Please, input quantity of chocolate candies you bought (in kg): ");
-        quantity_chock = readDoubleFromConsole();
+        quantity_chocolate = readDoubleFromConsole();
         print("Please, tell, how much money did you pay for them: ");
         cost_chock = readDoubleFromConsole();
         println("And now the same data for the chewing candies, please");
         print("- the quantity you bought (kg): ");
-        quantity_chew = readDoubleFromConsole();
+        quantity_chewing = readDoubleFromConsole();
         print("- the amount of money you paid: ");
         cost_chew = readDoubleFromConsole();
         
-        double chocolatePrice = calculatePrice(cost_chock, quantity_chock);
-        double chewingPrice = calculatePrice(cost_chew, quantity_chew);
+        double chocolatePrice = calculatePrice(cost_chock, quantity_chocolate);
+        double chewingPrice = calculatePrice(cost_chew, quantity_chewing);
         
         println("");
         println("All right then, now we can do our little calculations.");

@@ -10,11 +10,11 @@ class DinosWeightConversion
     
     public static void main(String[] args)
     {
-        welcomeUser();
+        showTaskDetails();
         runDialog();
     }
     
-    private static void welcomeUser()
+    private static void showTaskDetails()
     {
         print("Практическое задание для тренинга #01\n");
         print("Task 2:\n. Масса динозавра задаётся в граммах. Разработайте программу, которая,\n");

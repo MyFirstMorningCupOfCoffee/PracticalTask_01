@@ -24,11 +24,11 @@ class HowBigIsTheFile
     
     public static void main(String[] args)
     {
-        welcomeUser();
+        showTaskDetails();
         runDialog();
     }
     
-    private static void welcomeUser()
+    private static void showTaskDetails()
     {
         print("Практическое задание для тренинга #01\n");
         print("Task 3:\n. Дан общий размер файла в байтах (размер задаётся в виде целого числа).\n");

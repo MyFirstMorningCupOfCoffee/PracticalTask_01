@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class DinosWeightFromGrammsConverter
+class DinosWeightConversion
 {
     public static final double GRAMMS_IN_TONNE = 1_000_000;
     public static final double GRAMMS_IN_CENTNERE = 100_000;

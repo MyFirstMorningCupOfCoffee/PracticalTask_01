@@ -45,14 +45,14 @@ class HowBigIsTheFile
         print("Nice! Let us see how big your file is.\n\n");
         
         print("1. Decimal system\n");
-        print("  kilobytes (kB): " + convertBytesDecimal(size, "KB") + "\n");
-        print("  megabytes (MB): " + convertBytesDecimal(size, "MB") + "\n");
-        print("  gigabytes (GB): " + convertBytesDecimal(size, "GB") + "\n");
-        print("  terabytes (TB): " + convertBytesDecimal(size, "TB") + "\n");
-        print("  petabytes (PB): " + convertBytesDecimal(size, "PB") + "\n");
-        print("   exabytes (EB): " + convertBytesDecimal(size, "EB") + "\n");
-        print(" zettabytes (ZB): " + convertBytesDecimal(size, "ZB") + "\n");
-        print(" yottabytes (YB): " + convertBytesDecimal(size, "YB") + "\n");
+        print("   kilobytes (kB): " + convertBytesDecimal(size, "KB") + "\n");
+        print("   megabytes (MB): " + convertBytesDecimal(size, "MB") + "\n");
+        print("   gigabytes (GB): " + convertBytesDecimal(size, "GB") + "\n");
+        print("   terabytes (TB): " + convertBytesDecimal(size, "TB") + "\n");
+        print("   petabytes (PB): " + convertBytesDecimal(size, "PB") + "\n");
+        print("    exabytes (EB): " + convertBytesDecimal(size, "EB") + "\n");
+        print("  zettabytes (ZB): " + convertBytesDecimal(size, "ZB") + "\n");
+        print("  yottabytes (YB): " + convertBytesDecimal(size, "YB") + "\n");
         print("\n");
         
         print("2. Bynary system\n");

@@ -4,11 +4,11 @@ class TriangleTestApp
 {
     public static void main(String[] args)
     {
-        welcomeUser();
+        showTaskDetails();
         runDialog();
     }
     
-    private static void welcomeUser()
+    private static void showTaskDetails()
     {
         print("Практическое задание для тренинга #01\n");
         print("Task 1:\n. Создать простейшее приложение, которое определяет,\n");
